@@ -2681,7 +2681,7 @@ button {
   align-items: center;
 }
 .layout-header1 .main-menu-block .menu-right .icon-nav ul li i {
-  color: #999;
+  color:#b22827;
   font-size: 28px;
 }
 .layout-header1 .main-menu-block .menu-right .icon-nav ul li .cart-item {
@@ -2697,7 +2697,7 @@ button {
   margin-top: 3px;
 }
 .layout-header1 .main-menu-block .menu-right .icon-nav ul .mobile-user a i {
-  padding-right: 25px;
+  padding-right: 8px;
 }
 .layout-header1 .main-menu-block .menu-right .icon-nav ul .mobile-wishlist a i {
   padding-right: 8px;
@@ -3047,9 +3047,11 @@ button {
 }
 .category-header .navbar-menu .category-right .gift-block .grif-icon i {
   font-size: 35px;
+  color: yellow;
 }
 .category-header .navbar-menu .category-right .gift-block .gift-offer {
   margin-left: 10px;
+  color: yellow;
 }
 .category-header .navbar-menu .category-right .gift-block .gift-offer p {
   text-transform: uppercase;
@@ -4595,6 +4597,7 @@ button {
 .onhover-dropdown {
   position: relative;
   z-index: 9;
+  margin-right: 20px;
 }
 .onhover-dropdown .onhover-show-div {
   top: 50px;
@@ -12406,8 +12409,8 @@ button {
 .pixelstrap a:hover,
 .pixelstrap a:active {
   padding-right: 35px;
-  color: #444;
-  font-size: 14px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
   font-weight: 700;
   line-height: 23px;
   text-decoration: none;
@@ -18184,6 +18187,10 @@ body.rtl {
   .portfolio-section .portfolio-3 {
     margin-bottom: -15px;
   }
+  /* edit */
+  .layout-header1 .main-menu-block {padding: 0;}
+    /* edit */
+
 }
 @media (max-width: 1024px) {
   .creative-card.creative-inner {
@@ -23240,6 +23247,7 @@ body.dark {
   .input-group-prepend {
   background-color: #262626;
 }
+
 .dark
   .category-header
   .navbar-menu
