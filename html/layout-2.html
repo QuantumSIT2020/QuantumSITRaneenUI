@@ -30,6 +30,26 @@
 
     <!-- Theme css -->
     <link rel="stylesheet" type="text/css" href="../assets/css/color2.css" media="screen" id="color">
+
+    <style>
+
+        .menulevel{
+        background: white;
+        position: absolute;
+        left: 242px;
+        z-index: 999;
+        width: 100%;
+        top: 87px;
+        height: auto;
+        padding: 15px 0;
+        display: none;
+        }
+        .category-header .navbar-menu .category-left .nav-block .nav-left{
+
+            z-index: 999;
+            overflow: visible;
+        }
+    </style>
 </head>
 <body class="bg-light ">
 
@@ -317,9 +337,8 @@
                                                                     <div class="menu-content">
                                                                         <ul>
                                                                             <li><a href="grid-2-col.html">portfolio grid 2</a></li>
-                                                                            <li><a href="grid-3-col.html">portfolio grid 3</a></li>
-                                                                                                                                                            <li><a href="grid-4-col.html">portfolio grid 4</a></li>
-                                                                                <li><a href="grid-6-col.html">portfolio grid 6</a></li>
+                                                                            <li><a href="grid-3-col.html">portfolio grid 3</a></li>                                                                                <li><a href="grid-4-col.html">portfolio grid 4</a></li>
+                                                                            <li><a href="grid-6-col.html">portfolio grid 6</a></li>
                                                                             <li><a href="masonary-2-grid.html">mesonary grid 2</a></li>
                                                                             <li><a href="masonary-3-grid.html">mesonary grid 3</a></li>
                                                                             <li><a href="masonary-4-grid.html">mesonary grid 4</a></li>
@@ -499,15 +518,23 @@
                         <div class="category-left">
                             <div class=" nav-block">
                                 <div class="nav-left">
-                                    <nav class="navbar" data-toggle="collapse" data-target="#navbarToggleExternalContent">
+                                    <nav class="navbar">
                                         <button class="navbar-toggler" type="button">
                                             <span class="navbar-icon"><i class="fa fa-arrow-down"></i></span>
                                         </button>
                                         <h5 class="mb-0 ml-3 text-white title-font">Shop by category</h5>
                                     </nav>
-                                    <div class="collapse show nav-desk" id="navbarToggleExternalContent">
+                                    <div class="nav-desk">
                                         <ul class="nav-cat title-font">
-                                            <li> <img src="../assets/images/layout-1/nav-img/01.png " alt="catergory-product"> <a>western ware</a></li>
+                                            <li class="parentlevel"> <img src="../assets/images/layout-1/nav-img/01.png " alt="catergory-product"> <a>western ware</a>
+                                                <ul class="menulevel">
+                                                    <li> <img src="../assets/images/layout-1/nav-img/02.png " alt="catergory-product"> <a>TV, Appliances</a>   </li>
+                                                    <li> <img src="../assets/images/layout-1/nav-img/02.png " alt="catergory-product"> <a>TV, Appliances</a></li>
+                                                    <li> <img src="../assets/images/layout-1/nav-img/02.png " alt="catergory-product"> <a>TV, Appliances</a></li>
+                                                    <li> <img src="../assets/images/layout-1/nav-img/02.png " alt="catergory-product"> <a>TV, Appliances</a></li>
+                                                    <li> <img src="../assets/images/layout-1/nav-img/02.png " alt="catergory-product"> <a>TV, Appliances</a></li>
+                                                </ul>
+                                            </li>
                                             <li> <img src="../assets/images/layout-1/nav-img/02.png " alt="catergory-product"> <a>TV, Appliances</a></li>
                                             <li> <img src="../assets/images/layout-1/nav-img/03.png " alt="catergory-product"> <a>Pets Products</a></li>
                                             <li> <img src="../assets/images/layout-1/nav-img/04.png " alt="catergory-product"> <a>Car, Motorbike</a></li>
@@ -5865,6 +5892,18 @@
 
 <!-- latest jquery-->
 <script src="../assets/js/jquery-3.3.1.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+         $(".parentlevel").mouseenter(function () {
+             $(this).find(".menulevel").css("display", "block");
+         });
+ 
+        $(".parentlevel").mouseleave(function () {
+            $(this).find(".menulevel").css("display", "none");
+        }); 
+     });
+ </script>
 
 <!-- slick js-->
 <script src="../assets/js/slick.js"></script>

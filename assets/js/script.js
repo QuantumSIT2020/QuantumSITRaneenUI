@@ -35,11 +35,11 @@
      01. Slick slider
      ==========================*/
   $(".slide-1 ").slick({
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2500
   });
   $(".slide-1-section").slick({
-    dots: false,
+    dots: true,
     infinite: false,
     speed: 300,
     slidesToShow: 1,
