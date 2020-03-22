@@ -1,0 +1,47 @@
+.menulevel{
+    background: white;
+    position: absolute;
+    left: 242px;
+    z-index: 999;
+    width: 100%;
+    top: 87px;
+    height: auto;
+    padding: 15px 0;
+    display: none;
+}
+
+.secondmenulevel{
+    background: white;
+    position: absolute;
+    left: 264px;
+    z-index: 999;
+    width: 100%;
+    top: 0px;
+    height: auto;
+    padding: 15px 0;
+    display: none;
+}
+.category-header .navbar-menu .category-left .nav-block .nav-left{
+
+    z-index: 999;
+    overflow: visible;
+}
+
+.carousel-indicators li{
+    width: 13px !important;
+    height: 13px !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    background-color: rgb(178, 40, 39) !important;
+    border-radius: 50px !important;
+}
+
+carousel-inner img{
+
+    height:400px !important;
+}
+
+.carousel-indicators .active{
+
+    background-color: #fff !important;
+}

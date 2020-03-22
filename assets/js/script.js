@@ -40,7 +40,7 @@
     });
     $(".slide-1-section").slick({
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -77,8 +77,8 @@
         ]
     });
     $(".slide-4").slick({
-        dots: false,
-        infinite: false,
+        dots: true,
+        infinite: true,
         speed: 300,
         slidesToShow: 4,
         slidesToScroll: 4,
@@ -108,11 +108,11 @@
         ]
     });
     $(".slide-5").slick({
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 300,
         slidesToShow: 5,
-        centerPadding: "15px",
+        // centerPadding: "15px",
         responsive: [{
                 breakpoint: 1470,
                 settings: {
@@ -148,7 +148,7 @@
         ]
     });
     $(".slide-6").slick({
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 300,
         slidesToShow: 6,
@@ -1618,3 +1618,5 @@ function openSetting() {
 function closeSetting() {
     document.getElementById("mySetting").classList.remove("open-side");
 }
+
+
