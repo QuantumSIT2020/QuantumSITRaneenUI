@@ -1,5 +1,5 @@
 .bg-light {
-    background-color: #f9f9f9 !important;
+    background-color: #fff !important;
 }
 
 body {
@@ -125,7 +125,6 @@ button:focus {
 
 .section-pt-space {
     padding-top: 15px;
-
 }
 
 .section-pb-space {
@@ -429,7 +428,8 @@ button {
     font-size: 14px;
     padding: 18px 45px;
     font-weight: 700;
-    color: #fff;
+    color: #fff !important;
+    border: 1px solid #b22827 !important;
     background-color: #b22827;
     position: relative;
     -webkit-transition: all 0.3s;
@@ -8176,12 +8176,14 @@ button {
     margin-top: 10px;
     border-radius: 0;
     overflow: hidden;
-    border-bottom: 1px solid #bff0ff;
+    border-bottom: 1px solid #f9f9f9;
+    border: 1px solid #fafafa;
+    box-shadow: 0 11px 35px 2px rgba(0, 0, 0, 0.1);
 }
 
 .faq-section .accordion.theme-accordion .card :not(:first-of-type):not(:last-of-type),
 .faq-section .accordion.theme-accordion .card .theme-accordion .card:first-of-type {
-    border-bottom: 1px solid #bff0ff;
+    border-bottom: 1px solid #f9f9f9;
 }
 
 .faq-section .accordion.theme-accordion .card:first-child {
@@ -8192,17 +8194,18 @@ button {
     padding: 0;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    background-color: #f2fcff;
-    border: 1px solid #f2fcff;
+    background-color: #f9f9f9;
+    border: 1px solid #f9f9f9;
 }
 
 .faq-section .accordion.theme-accordion .card .card-header button {
-    color: #00baf2;
+    color: #b22827;
     text-align: left;
     font-size: 17px;
     padding: 18px;
     font-weight: 600;
     letter-spacing: 0.05em;
+    text-decoration: none !important;
 }
 
 .faq-section .accordion.theme-accordion .card .card-header button:before {
@@ -8212,7 +8215,7 @@ button {
     height: 0;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
-    border-top: 6px solid #777;
+    border-top: 6px solid #b22827;
     right: 20px;
     top: 25px;
     -webkit-transition: all 0.3s ease;
@@ -8221,14 +8224,14 @@ button {
 
 .faq-section .accordion.theme-accordion .card .card-header button[aria-expanded="true"]:before {
     border-top: 0;
-    border-bottom: 6px solid #777;
+    border-bottom: 6px solid #b22827;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
 .faq-section .accordion.theme-accordion .card .card-header button:hover {
-    text-decoration: none;
-    color: #00baf2;
+    text-decoration: none !important;
+    color: #b22827;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
