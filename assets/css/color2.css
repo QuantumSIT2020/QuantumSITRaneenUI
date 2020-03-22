@@ -124,7 +124,8 @@ button:focus {
 }
 
 .section-pt-space {
-    padding-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 80px;
 }
 
 .section-pb-space {
@@ -369,7 +370,7 @@ button {
     font-size: 14px;
     padding: 18px 50px;
     font-weight: 700;
-    color: #fff !important;
+    color: #b22827 !important;
     background-color: #00baf2;
     border-radius: 25px;
     position: relative;
@@ -428,7 +429,7 @@ button {
     font-size: 14px;
     padding: 18px 45px;
     font-weight: 700;
-    color: #fff !important;
+    color: #fff;
     background-color: #b22827;
     position: relative;
     -webkit-transition: all 0.3s;
@@ -451,7 +452,7 @@ button {
 }
 
 .btn-normal:hover {
-    background-color: #000;
+    background-color: #b22827;
 }
 
 .services {
@@ -862,7 +863,7 @@ button {
 }
 
 .deal-banner {
-    background-color: #00baf2;
+    background-color: #b22827;
     padding: 40px 0;
 }
 
@@ -967,7 +968,7 @@ button {
 }
 
 .contact-banner.contact-banner-inverse {
-    background-color: #1c3481;
+    background-color: #B22827;
 }
 
 .contact-banner .contact-banner-contain {
@@ -1005,15 +1006,16 @@ button {
 }
 
 .rounded-category.rounded-category-inverse {
-    background-color: #00baf2;
+    background-color: #f9feff;
 }
 
 .rounded-category.rounded-category-inverse .category-contain:hover .img-wrapper {
-    border: 1px solid #1c3481;
+    border: 1px solid #b22827;
 }
 
 .rounded-category.rounded-category-inverse .category-contain:hover .btn-rounded {
-    background-color: #1c3481;
+    background-color: #b22827;
+    color: #fff !important;
 }
 
 .rounded-category .category-contain {
@@ -1031,6 +1033,19 @@ button {
     transition: 0.5s ease;
 }
 
+.rounded-category .category-contain .header-wrapper {
+    border: 1px solid #b22827;
+    color: #b22827;
+    padding: 5px;
+    width: 110px;
+    height: 110px;
+    padding-top: 38px;
+    border-radius: 50%;
+    margin: 0 auto;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
 .rounded-category .category-contain .img-wrapper img {
     border-radius: 100%;
 }
@@ -1042,6 +1057,16 @@ button {
     margin-top: 15px;
     background-color: transparent;
     text-transform: uppercase;
+}
+
+.rounded-category .category-contain .btn-text {
+    padding: 10px 25px;
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+    display: inline-block;
+    margin-top: 15px;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #212529;
 }
 
 .rounded-category .category-contain:hover .img-wrapper {
@@ -1069,9 +1094,31 @@ button {
     text-transform: uppercase;
 }
 
+.box-category .box-category-contain_2 {
+    padding: 30px 0;
+    background-color: #6f0403;
+    text-align: center;
+    margin-left: 15px;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 2px 3px #f7f1f15e;
+}
+
 .box-category .box-category-contain h4 {
     line-height: 1;
     letter-spacing: 1px;
+}
+
+.box-category .box-category-contain_2 {
+    height: 165px;
+}
+
+.box-category .box-category-contain_2 p {
+    padding: 20px;
+    font-size: 12px;
 }
 
 .box-category .box-category-contain:after {
@@ -1085,6 +1132,11 @@ button {
     top: 0;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+}
+
+.box-category .box-category-contain_2:after {
+    background: #b22827 !important;
+    color: #fff !important;
 }
 
 .box-category .box-category-contain:hover {
@@ -1218,6 +1270,21 @@ button {
 
 .collection-banner .padding-banner-2 {
     padding-bottom: 15px;
+}
+
+.collection-banner_2 {
+    overflow: hidden;
+    background: #b22827;
+    margin-top: 80px;
+}
+
+.collection-banner_2 .collection-banner-main {
+    height: 360px !important;
+}
+
+.collection-banner_2 .btn-normal {
+    color: #b22827 !important;
+    background-color: #ffffff !important;
 }
 
 .collection-banner .collection-banner-main {
@@ -6344,6 +6411,7 @@ button {
     text-align: center;
     position: relative;
     padding: calc(18px + (42 - 18) * ((100vw - 320px) / (1920 - 320)));
+    margin-bottom: 30px;
 }
 
 .title6 h4 {
@@ -6354,7 +6422,7 @@ button {
     padding: 0 25px;
     text-transform: uppercase;
     position: relative;
-    color: #444;
+    color: #b22827;
 }
 
 .title6 h4:before,
@@ -6362,7 +6430,7 @@ button {
     width: 10%;
     height: 2px;
     content: "";
-    background: #444;
+    background: #b22827;
     display: inline-block;
     position: absolute;
     top: 50%;
@@ -11404,8 +11472,10 @@ button {
 
 .theme-tab .tab-title .current a,
 .theme-tab .tab-title2 .current a {
-    color: #00baf2;
+    color: #ffffff;
     font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1920 - 320)));
+    background: #b22827;
+    padding: 12px 15px;
 }
 
 .theme-tab .tab-title li,
