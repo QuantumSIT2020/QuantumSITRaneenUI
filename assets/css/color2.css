@@ -124,13 +124,12 @@ button:focus {
 }
 
 .section-pt-space {
-    padding-top: 15px;
-}
+    padding: 15px 0 30px 0;}
 
 .section-pb-space {
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     padding-top: 10px;
-    background-color: #fff;
+    background-color: #777777;
 }
 
 .section-py-space {
@@ -369,7 +368,7 @@ button {
     font-size: 14px;
     padding: 18px 50px;
     font-weight: 700;
-    color: #b22827 !important;
+    color: #fff !important;
     background-color: #b22827;
     border-radius: 25px;
     position: relative;
@@ -768,11 +767,11 @@ button {
 }
 
 .testimonial {
-    background-color: #b22827;
+    background-color: #fff;
 }
 
 .testimonial.testimonial-inverse {
-    background: #b22827;
+    background: #fff;
 }
 
 .testimonial .testimonial-contain {
@@ -790,7 +789,7 @@ button {
 }
 
 .testimonial .testimonial-contain .media .media-body {
-    color: #fff;
+    color: #000000;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -863,14 +862,9 @@ button {
 }
 
 .deal-banner {
+    margin-bottom: 30px;
     background-color: #b22827;
     padding: 40px 0;
-}
-
-.deal-banner_2 {
-    background-color: #2e1919 !important;
-    padding: 40px 40px;
-    margin-top: 80px;
 }
 
 .deal-banner .deal-banner-containe h2 {
@@ -1296,14 +1290,6 @@ button {
 .collection-banner .collection-banner-main {
     position: relative;
     overflow: hidden;
-}
-
-.product_banner {
-    height: 360px !important;
-}
-
-.product_banner .collection-img {
-    height: 100% !important;
 }
 
 .collection-banner .collection-banner-main .collection-img {
@@ -2378,7 +2364,14 @@ button {
 .hot-deal .hot-deal-contain .hot-deal-center .timer p {
     margin-bottom: 0;
 }
-
+.hot-deal .hot-deal-contain .hot-deal-center .timer p>span {
+    background-color: #b22827 !important;
+    color: #fff !important;
+}
+.hot-deal .hot-deal-contain .hot-deal-center .timer p>span>span {
+    background-color: #b22827 !important;
+    color: #fff !important;
+}
 .hot-deal .hot-deal-contain .hotdeal-right-slick {
     border: 1px solid #ddd;
     -webkit-transition: all 0.3s ease;
@@ -5117,7 +5110,7 @@ button {
 }
 
 .media-banner.media-banner-1 {
-    background-color: #eef3f4;
+    background-color: #f8f8f8;
     margin: 0 8px;
 }
 
@@ -6540,6 +6533,7 @@ button {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    background-color: white;
 }
 
 .newsletter .subscribe-block .input-group input {
@@ -7370,11 +7364,10 @@ button {
     animation: none;
 }
 
-
-/* .collection-product-wrapper .product-top-filter {
+.collection-product-wrapper .product-top-filter {
     border-bottom: 1px solid #ddd;
     border-top: 1px solid #ddd;
-} */
+}
 
 .collection-product-wrapper .product-top-filter .product-filter-content,
 .collection-product-wrapper .product-top-filter .popup-filter {
@@ -11110,10 +11103,7 @@ button {
 
 .portfolio-section .isotopeSelector img {
     width: 100%;
-}
-
-.portfolio-section_2 .isotopeSelector img {
-    height: 250px;
+    height: auto;
 }
 
 .portfolio-section .isotopeSelector .product-box {
@@ -11505,6 +11495,7 @@ button {
     margin-bottom: 30px;
     margin-top: -6px;
 }
+
 
 .theme-tab .tab-title.media-tab li,
 .theme-tab .tab-title2.media-tab li {
@@ -12608,6 +12599,7 @@ button {
 
 .masonory-banner .masonary-banner-main {
     position: relative;
+    margin-bottom: 40px;
 }
 
 .masonory-banner .masonary-banner-main .masonary-banner-contant {
@@ -17058,7 +17050,7 @@ body.rtl {
     .collection-product-wrapper .product-top-filter .product-filter-content .collection-view {
         width: 20%;
         padding-right: 0 !important;
-        /* border-left: 1px solid #ddd; */
+        border-left: 1px solid #ddd;
     }
     .collection-product-wrapper .product-top-filter .product-filter-content .collection-grid-view {
         padding: 20px !important;
@@ -17069,7 +17061,7 @@ body.rtl {
         display: none;
     }
     .collection-product-wrapper .product-top-filter .product-filter-content .product-page-filter {
-        /* border-right: 1px solid #ddd; */
+        border-right: 1px solid #ddd;
         width: 30%;
     }
     .collection-product-wrapper .product-top-filter .product-filter-content .product-page-per-view {
@@ -22899,6 +22891,7 @@ body.dark {
 
 .dark .newsletter .news-leble {
     border-color: #3c3c3c;
+    
 }
 
 .dark .newsletter .news-leble .news-text {
@@ -23952,3 +23945,8 @@ body.dark {
 
 
 /* change logo top width */
+/*edit blog */
+.pa-blog {
+    margin-bottom: 50px;
+}
+/*edit blog */
