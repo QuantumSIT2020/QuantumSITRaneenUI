@@ -6676,6 +6676,18 @@ button {
     font-weight: 500;
 }
 
+.paymant-offer-mian_2 h4 {
+    margin-top: 25px;
+}
+
+.paymant-offer-mian_2 h3 {
+    margin-top: 15px;
+}
+
+.paymant-offer-mian_2 {
+    height: 280px !important;
+}
+
 .paymant-offer-mian .payment-cod {
     padding: 8px 20px;
     width: -webkit-fit-content;
@@ -8230,11 +8242,8 @@ button {
 }
 
 .faq-section .accordion.theme-accordion .card .card-header button:hover {
-<<<<<<< HEAD
     text-decoration: none !important;
-=======
     text-decoration: none;
->>>>>>> f8a9a78d33143a0775ebfb3c797e9b4b741f8028
     color: #b22827;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -8416,6 +8425,30 @@ button {
     padding: 30px;
     background-color: #f1f4f7;
     border: 30px solid #fff;
+}
+
+.contact-page .theme-form_2 {
+    background-color: #ffffff !important;
+    border: 30px solid #f1f4f7 !important;
+}
+
+.theme-form_2 h6 {
+    font-size: 2pc;
+    font-weight: 700;
+    color: #b22827;
+}
+
+.theme-form_2 ol {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.theme-form_2 li {
+    margin-bottom: 20px;
+}
+
+.theme-form_2 ol strong {
+    color: #b22827;
 }
 
 .contact-page .theme-form label {
