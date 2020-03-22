@@ -124,8 +124,8 @@ button:focus {
 }
 
 .section-pt-space {
-    padding-top: 30px;
-    padding-bottom: 80px;
+    padding-top: 15px;
+
 }
 
 .section-pb-space {
@@ -5819,7 +5819,7 @@ button {
 
 .theme-slider .slider-banner .slider-img {
     height: 455px;
-    background-color: #eddbd1;
+    background-color: chartreuse;
 }
 
 .theme-slider .slider-banner .slider-banner-contain {
@@ -12426,7 +12426,7 @@ button {
 }
 
 .theme-modal#exampleModal .close span {
-    color: #00baf2;
+    color: #B22827;
     font-size: 35px;
     text-shadow: none;
 }
@@ -12442,7 +12442,7 @@ button {
 }
 
 .theme-modal#exampleModal .offer-content {
-    background-image: url(../images/bg-newslatter.jpg);
+    background-image: url(../images/bg-newslatter.png);
     background-repeat: no-repeat;
     background-position: right center;
     background-color: rgba(255, 255, 255, 0.4);
