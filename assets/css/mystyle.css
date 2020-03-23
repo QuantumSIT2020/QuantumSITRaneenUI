@@ -5,9 +5,10 @@
     z-index: 999;
     width: 100%;
     top: 87px;
-    height: auto;
-    padding: 15px 0;
+    height: 672px;
+    padding-top: 15px;
     display: none;
+
 }
 
 .secondmenulevel{
@@ -17,8 +18,8 @@
     z-index: 999;
     width: 100%;
     top: 0px;
-    height: auto;
-    padding: 15px 0;
+    height: 672px;
+    padding-top: 15px;
     display: none;
 }
 .category-header .navbar-menu .category-left .nav-block .nav-left{
@@ -36,12 +37,34 @@
     border-radius: 50px !important;
 }
 
-carousel-inner img{
-
-    height:400px !important;
-}
-
 .carousel-indicators .active{
 
     background-color: #fff !important;
+}
+
+.carousel-indicators{
+    z-index: 1 !important;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1bf;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b22827;
+}
+
+.nav-cat{
+    height: 668px !important;
+    overflow-y: auto !important;
 }
