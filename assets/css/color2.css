@@ -867,6 +867,12 @@ button {
     padding: 40px 0;
 }
 
+.deal-banner_2 {
+    background-color: #2e1919 !important;
+    padding: 40px 40px;
+    margin-top: 80px;
+}
+
 .deal-banner .deal-banner-containe h2 {
     font-size: calc(14px + (24 - 14) * ((100vw - 320px) / (1920 - 320)));
     text-transform: uppercase;
@@ -1290,6 +1296,14 @@ button {
 .collection-banner .collection-banner-main {
     position: relative;
     overflow: hidden;
+}
+
+.product_banner {
+    height: 360px !important;
+}
+
+.product_banner .collection-img {
+    height: 100% !important;
 }
 
 .collection-banner .collection-banner-main .collection-img {
@@ -7356,10 +7370,11 @@ button {
     animation: none;
 }
 
-.collection-product-wrapper .product-top-filter {
+
+/* .collection-product-wrapper .product-top-filter {
     border-bottom: 1px solid #ddd;
     border-top: 1px solid #ddd;
-}
+} */
 
 .collection-product-wrapper .product-top-filter .product-filter-content,
 .collection-product-wrapper .product-top-filter .popup-filter {
@@ -11095,7 +11110,10 @@ button {
 
 .portfolio-section .isotopeSelector img {
     width: 100%;
-    height: auto;
+}
+
+.portfolio-section_2 .isotopeSelector img {
+    height: 250px;
 }
 
 .portfolio-section .isotopeSelector .product-box {
@@ -17040,7 +17058,7 @@ body.rtl {
     .collection-product-wrapper .product-top-filter .product-filter-content .collection-view {
         width: 20%;
         padding-right: 0 !important;
-        border-left: 1px solid #ddd;
+        /* border-left: 1px solid #ddd; */
     }
     .collection-product-wrapper .product-top-filter .product-filter-content .collection-grid-view {
         padding: 20px !important;
@@ -17051,7 +17069,7 @@ body.rtl {
         display: none;
     }
     .collection-product-wrapper .product-top-filter .product-filter-content .product-page-filter {
-        border-right: 1px solid #ddd;
+        /* border-right: 1px solid #ddd; */
         width: 30%;
     }
     .collection-product-wrapper .product-top-filter .product-filter-content .product-page-per-view {
