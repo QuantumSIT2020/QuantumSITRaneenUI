@@ -3092,7 +3092,7 @@ button {
 .category-header .navbar-menu .category-left .nav-block .nav-left .nav-cat {
     padding: 20px;
     margin-top: 15px;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
     background-color: #fff;
 }
 
@@ -16284,7 +16284,7 @@ body.rtl {
 
 .rtl .category-header .navbar-menu .category-left .nav-block .nav-left .nav-cat {
     margin-right: 0;
-    margin-left: 15px;
+    margin-left: 0;
 }
 
 .rtl .collection-banner .collection .pl-md-0 {
@@ -16840,7 +16840,13 @@ body.rtl {
         height: 43.5px;
     }
     .theme-slider .offset-xl-2 {
-        margin-left: 270px;
+        margin-left: 270px !important;
+        max-width: 64.5%;
+    }
+
+    .rtl .theme-slider .offset-xl-2 {
+        margin-right: 270px !important;
+        margin-left:0 !important;
         max-width: 64.5%;
     }
     .theme-slider .slider-banner .layout2-slide-1 li {
