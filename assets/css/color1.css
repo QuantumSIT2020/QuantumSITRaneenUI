@@ -8145,7 +8145,7 @@ button {
   display: block;
 }
 .category-side .collection-collapse-block .collapse-block-title {
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 .category-side .color-selector ul li {
   margin-bottom: 0;

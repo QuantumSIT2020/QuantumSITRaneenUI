@@ -125,12 +125,14 @@ button:focus {
 
 .section-pt-space {
     padding: 15px 0 30px 0;
+    max-width: 1600px ;
+    margin: auto;
 }
 
 .section-pb-space {
     padding-bottom: 30px;
     padding-top: 10px;
-    background-color: #777777;
+    background-color:none;
 }
 
 .section-py-space {
@@ -2422,7 +2424,7 @@ button {
 }
 
 .hot-deal .hot-deal-contain .slick-slider .slick-arrow {
-    display: none !important;
+    display: inline-block !important;
 }
 
 .hot-deal .hot-deal-contain1 {
@@ -2536,7 +2538,7 @@ button {
     line-height: 1;
 }
 
-.hot-deal .hot-deal-contain1 .hot-deal-subcontain .hot-deal-center .price span:last-child {
+.hot-deal .hot-deal-contain1 .hot-deal-subcontain .hot-deal-center .price span:nth-child(2) {
     color: #aaa;
     text-decoration: line-through;
 }
@@ -2817,6 +2819,8 @@ button {
     align-items: center;
     z-index: 10;
     padding: 0 115px;
+    max-width: 1700px;
+    margin: auto;
 }
 
 .layout-header1 .main-menu-block .menu-left {
@@ -8153,7 +8157,7 @@ button {
 }
 
 .category-side .collection-collapse-block .collapse-block-title {
-    margin-top: 20px;
+    margin-top: 20px !important;
 }
 
 .category-side .color-selector ul li {
@@ -12657,6 +12661,10 @@ button {
     height: 130px;
 }
 
+.masonory-banner{
+    max-width: 1600px;
+    margin: auto;
+}
 .masonory-banner .masonary-banner-main {
     position: relative;
     margin-bottom: 40px;
@@ -13480,6 +13488,7 @@ button {
         position: absolute;
     }
     .pixelstrap ul {
+        width: auto !important;
         padding: 15px 0px 15px 0px;
         background: #fff;
         border: 5px solid #f6f6f6;
@@ -24014,3 +24023,14 @@ body.dark {
 
 
 /*edit blog */
+
+/* edite hot deals detail btn */
+.details-o{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #b22827;
+    font-weight: 600;
+}
+}
+/* edite hot deals detail btn */
+s
