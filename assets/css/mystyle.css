@@ -11,10 +11,35 @@
 
 }
 
+.rtl .menulevel{
+    background: white;
+    position: absolute;
+   right: 242px;
+    z-index: 999;
+    width: 100%;
+    top: 87px;
+    height: 672px;
+    padding-top: 15px;
+    display: none;
+
+}
+
 .secondmenulevel{
     background: white;
     position: absolute;
     left: 264px;
+    z-index: 999;
+    width: 100%;
+    top: 0px;
+    height: 672px;
+    padding-top: 15px;
+    display: none;
+}
+
+.rtl .secondmenulevel{
+    background: white;
+    position: absolute;
+    right: 264px;
     z-index: 999;
     width: 100%;
     top: 0px;
@@ -73,3 +98,11 @@
 
 
     margin-left: 1rem !important;}
+
+.rtl .pr-3{
+    padding-left: 3rem !important;
+}
+
+.rtl .pl-3{
+    padding-right: 3rem !important;
+}
