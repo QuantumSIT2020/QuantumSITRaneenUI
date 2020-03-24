@@ -125,14 +125,14 @@ button:focus {
 
 .section-pt-space {
     padding: 15px 0 30px 0;
-    max-width: 1600px ;
+    max-width: 1600px;
     margin: auto;
 }
 
 .section-pb-space {
     padding-bottom: 30px;
     padding-top: 10px;
-    background-color:none;
+    background-color: none;
 }
 
 .section-py-space {
@@ -210,7 +210,7 @@ button:focus {
     text-align: center;
     font-size: 24px;
     font-weight: 700;
-    color: #000;
+    color: #b22827;
     margin: 0 8px;
     min-width: 70px;
 }
@@ -2209,7 +2209,7 @@ button {
 .product .product-box .product-detail .icon-detail button {
     background-color: #fff;
     border: 1px solid #ddd;
-    color: #777;
+    color: #b22827;
     padding: 15px;
 }
 
@@ -2217,7 +2217,7 @@ button {
     background-color: #fff;
     padding: 15px;
     border: 1px solid #ddd;
-    color: #777;
+    color: #b22827;
 }
 
 .no-slider .product-box {
@@ -8206,11 +8206,16 @@ button {
 
 .collection .collection-block {
     text-align: center;
+    padding-bottom: 20px;
+    box-shadow: 0 11px 35px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
 }
 
 .collection .collection-block img,
 .collection .collection-block .bg-size {
     margin-bottom: 20px;
+    height: 250px;
 }
 
 .collection .collection-block .collection-content {
@@ -8219,7 +8224,7 @@ button {
 
 .collection .collection-block .collection-content h3 {
     margin-bottom: 10px;
-    color: #333;
+    color: #b22827;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 0.05em;
@@ -8234,7 +8239,7 @@ button {
 
 .collection .collection-block .collection-content p {
     line-height: 1.5;
-    margin-bottom: 15px;
+    margin: 15px;
 }
 
 .collection .collection-block .collection-content .btn-normal {
@@ -8632,7 +8637,7 @@ button {
 .wishlist-section .cart-table thead th {
     border-bottom-width: 1px;
     font-weight: 900;
-    color: #333;
+    color: #b22827;
     text-transform: uppercase;
     font-size: 14px;
     border-top: 0;
@@ -8666,6 +8671,33 @@ button {
     font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (1920 - 320)));
     text-transform: capitalize;
     margin-bottom: 0;
+}
+
+.cartt_2 {
+    padding: 10px;
+    background: #b22827;
+}
+
+.cartt_2 .ti-shopping-cart {
+    color: #ffffff !important;
+}
+
+.p_stock {
+    background: #ffd9d9;
+    padding: 10px;
+    color: #b22827 !important;
+    font-weight: 700 !important;
+}
+
+.p_out_stock {
+    background: #ffc10769;
+    padding: 10px;
+    color: #424b55 !important;
+    font-weight: 700 !important;
+}
+
+.delete_price {
+    color: #c6bbbb;
 }
 
 .cart-section tbody tr td a img,
@@ -12661,10 +12693,11 @@ button {
     height: 130px;
 }
 
-.masonory-banner{
+.masonory-banner {
     max-width: 1600px;
     margin: auto;
 }
+
 .masonory-banner .masonary-banner-main {
     position: relative;
     margin-bottom: 40px;
@@ -14222,7 +14255,7 @@ body.rtl {
 }
 
 .rtl .mr-3 {
-    margin-right: 0 !important;
+    margin-right: 1rem !important;
     margin-left: 5px;
 }
 
@@ -16815,10 +16848,9 @@ body.rtl {
         margin-left: 270px !important;
         max-width: 64.5%;
     }
-
     .rtl .theme-slider .offset-xl-2 {
         margin-right: 270px !important;
-        margin-left:0 !important;
+        margin-left: 0 !important;
         max-width: 64.5%;
     }
     .theme-slider .slider-banner .layout2-slide-1 li {
@@ -24030,13 +24062,15 @@ body.dark {
 
 /*edit blog */
 
+
 /* edite hot deals detail btn */
-.details-o{
+
+.details-o {
     text-transform: uppercase;
     text-decoration: underline;
     color: #b22827;
     font-weight: 600;
 }
-}
+
+
 /* edite hot deals detail btn */
-s
