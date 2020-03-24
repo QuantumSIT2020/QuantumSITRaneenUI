@@ -106,3 +106,25 @@
 .rtl .pl-3{
     padding-right: 3rem !important;
 }
+
+@media (max-width: 600px){
+
+    #rtlslide{
+
+        height: 200px !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .carousel-inner{
+
+          height: 200px !important;
+
+      }
+
+    .carousel-inner img{
+
+        height: 200px !important;
+
+    }
+}
