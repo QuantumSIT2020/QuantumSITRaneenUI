@@ -210,7 +210,7 @@ button:focus {
     text-align: center;
     font-size: 24px;
     font-weight: 700;
-    color: #000;
+    color: #b22827;
     margin: 0 8px;
     min-width: 70px;
 }
@@ -8206,11 +8206,16 @@ button {
 
 .collection .collection-block {
     text-align: center;
+    padding-bottom: 20px;
+    box-shadow: 0 11px 35px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
 }
 
 .collection .collection-block img,
 .collection .collection-block .bg-size {
     margin-bottom: 20px;
+    height: 250px;
 }
 
 .collection .collection-block .collection-content {
@@ -8219,7 +8224,7 @@ button {
 
 .collection .collection-block .collection-content h3 {
     margin-bottom: 10px;
-    color: #333;
+    color: #b22827;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 0.05em;
@@ -8234,7 +8239,7 @@ button {
 
 .collection .collection-block .collection-content p {
     line-height: 1.5;
-    margin-bottom: 15px;
+    margin: 15px;
 }
 
 .collection .collection-block .collection-content .btn-normal {
@@ -16843,10 +16848,9 @@ body.rtl {
         margin-left: 270px !important;
         max-width: 64.5%;
     }
-
     .rtl .theme-slider .offset-xl-2 {
         margin-right: 270px !important;
-        margin-left:0 !important;
+        margin-left: 0 !important;
         max-width: 64.5%;
     }
     .theme-slider .slider-banner .layout2-slide-1 li {
