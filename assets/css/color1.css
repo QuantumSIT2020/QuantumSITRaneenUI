@@ -2551,6 +2551,7 @@ button {
 }
 .layout-header1 .main-menu-block .menu-left .sm-nav-block span i {
   font-size: 24px;
+  color: black;
 }
 .layout-header1 .main-menu-block .menu-left .sm-nav-block .nav-slide {
   position: fixed;
@@ -12367,7 +12368,7 @@ body.dark {
   color: #f1f3f5 !important;
 }
 .dark .toggle-nav i {
-  color: #f1f3f5;
+  color: black;
 }
 .dark
   .category-header
